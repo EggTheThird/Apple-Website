@@ -1,0 +1,67 @@
+body{
+	background-color:black;
+}
+a{
+	color:white;
+}
+.parallax{
+background-image:url("https://cdn2.macworld.co.uk/cmsdata/features/3606104/Apple-1-Computer.jpg");
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+}
+.parallax2{
+background-image:url("https://qph.ec.quoracdn.net/main-qimg-e5f720a43beb753a847d8384ee70db67?convert_to_webp=true");
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+}
+.parallax3{
+background-image:url("http://i.kinja-img.com/gawker-media/image/upload/s--2VGer4Bq--/182fwzdo54j86jpg.jpg");
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+}
+h1{
+	text-align:center;
+	color:white;
+	font-size:50px;
+}
+#e1{
+	width:100%;
+	height:450px;
+	text-align:center;
+	font-size:30px;
+	color:white;
+	font-weight:900;
+	-webkit-text-stroke:2px black;
+	line-height:2em;
+}
+#e2{
+	width:100%;
+	height:600px;
+	text-align:center;
+	font-size:30px;
+	color:white;
+	font-weight:900;
+	-webkit-text-stroke:2px black;
+	line-height:2em;
+}
+#e3{
+	width:100%;
+	height:600px;
+	text-align:center;
+	font-size:30px;
+	color:white;
+	font-weight:900;
+	-webkit-text-stroke:2px black;
+	line-height:2em;
+}
+span{
+	position:absolute;
+	left:30%;
+}
+h1{
+	font-family:"Times New Roman";
+}
+	

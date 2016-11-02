@@ -1,0 +1,104 @@
+html{
+	width:2000px;
+}
+body{
+	animation: color linear 10s infinite;
+	background-color:#78C29E;
+}
+@keyframes color{
+	0%{background-color:#78C29E;}
+	30%{background-color:#009790;}
+	60%{background-color:#FF805C;}
+	90%{background-color:#BDF6E9;}
+}
+.offset{
+	margin-left:1000px;
+}
+#event1{
+	position:absolute;
+	left:0;
+	top:50%;
+	background-color:blue;
+	height:50px;
+	width:100px;
+	text-align:center;
+	box-shadow:-10px 15px 20px;
+	padding-right:10px;
+	padding-left:10px;
+	border-radius: 20px;
+}
+#event2{
+	position:absolute;
+	left:500px;
+	top:50%;
+	background-color:purple;
+	height:50px;
+	width:100px;
+	text-align:center;
+	box-shadow:-10px 10px 20px;
+	padding-right:10px;
+	padding-left:10px;
+	border-radius: 20px;
+}
+#event3{
+	position:absolute;
+	left:1000px;
+	top:50%;
+	background-color:black;
+	color:white;
+	height:50px;
+	width:100px;
+	text-align:center;
+	padding-right:10px;
+	padding-left:10px;
+	border-radius: 20px;
+}
+#event4{
+	position:absolute;
+	left:1500px;
+	top:50%;
+	background-color:red;
+	height:50px;
+	width:100px;
+	text-align:center;
+	box-shadow:12px 15px 20px;
+	padding-right:10px;
+	padding-left:10px;
+	border-radius: 20px;
+}
+#event5{
+	position:absolute;
+	left:2000px;
+	top:50%;
+	background-color:green;
+	height:50px;
+	width:100px;
+	text-align:center;
+	box-shadow:12px 15px 20px;
+	padding-right:10px;
+	padding-left:10px;
+	border-radius: 20px;
+}
+#timeline{
+	background-color:black;
+	height:20px;
+	width:2000px;
+	z-index:-5;
+	position:absolute;
+	left:0;
+	top:52%;
+}
+h1{
+	position:fixed;
+	left:26%;
+	top:0;
+	font-size:50px;
+	font-family:"Kino MT";
+}
+span{
+	position:fixed;
+	top:15%;
+	left:30%;
+}
+
+	
